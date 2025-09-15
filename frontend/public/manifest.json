@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Social LeetCode",
+  "version": "1.0",
+  "description": "A social extension for LeetCode to track progress with friends.",
+  "permissions": [
+    "storage",
+    "debugger"
+  ],
+  "host_permissions": [
+    "*://*.leetcode.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html"
+  }
+}

@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node.js
+node_modules/
+dist/
+.DS_Store
+
+# Secrets (IMPORTANT)
+.env
+.env.discord
+
+# IDE / Editor specific
+.vscode/
+.idea/
