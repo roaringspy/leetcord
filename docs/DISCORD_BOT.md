@@ -49,5 +49,3 @@ When the main backend API calls `POST /events/new-submission`, the bot's FastAPI
 ````
 
 The bot then formats this data into a rich Discord embed message and sends it to the configured channel.
-
-```
